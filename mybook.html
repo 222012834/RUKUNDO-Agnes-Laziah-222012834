@@ -1,0 +1,192 @@
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<body bgcolor="pink">
+    <p>
+    	<center>
+    	<ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline; background-color:orange; margin-right: 10px"><a href="./home.html">HOME</a></li>
+        <li style="display: inline; background-color:orange; margin-right: 10px"><a href="./about.html">ABOUT</a></li>
+        <li style="display: inline; background-color:orange; margin-right: 10px"><a href="./contact.html">CONTACT</a></li>
+        <li style="display: inline; background-color:orange; margin-right: 10px"><a href="./services.html">SERVICES</a></li>
+        <li style="display: inline; background-color:orange; margin-right: 10px"><a href="./form.html">FORM</a></li>
+        <li style="display: inline; background-color:orange; margin-right: 10px"><a href="./Tables.html">TABLE</a></li>
+        <li style="display: inline; background-color:orange; margin-right: 10px"><a href="./mybook.html">MYBOOK</a></li>
+    </ul></center>
+
+	</p>
+	<h1>DATABASE AND JAVA FORMS OF OUR COMPANY</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<p>Database name used: <b>FURNITURE MANAGEMENT SYSTEM</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b>Account</b></li>
+
+			<p>Account table records the identification of user who will need an accont in our system .
+            Note: The user who  have an account is the one to who will get access to our system.</p></br>
+
+			<li><b> </b></li>
+
+			<p>Account table any one with account have access to all forms in our system and it requires the identification of the user </p> </br>
+
+
+			<li><b>customer_order</b></li>
+
+			<p>This contains the identification of the customer and other required infomation he or she is asked to fill in the form.</p></br>
+
+			<li><b> </b></li>
+
+			<p>customer_order table contains what customer has ordered time and others.</p></br>
+
+            <li><b>products </b></li>
+
+			<p>It contains any kind of infomation about buying products.</p></br>
+
+			<li><b>Employee </b></li>
+             <p>This table contains all about workers and thier identifications</p>
+
+
+
+			              <h3><u><i><li>Attributes</li></i></u></h3>
+			       <b>Attributes of account Table</b></br>
+    Here are the descriptions  of the attributes used in account table:</br>
+
+    <p><b><i>id (int):</i></b> id for the user.</br></p> 
+
+    <p><b><i>First_name(varchar):</i></b> first name of user.</br></p>
+
+    <p><b><i>Last_name(varchar):</i></b> last name of user.</br></p> 
+
+    <p><b><i>Email(varchar):</i></b> email of the user.</br></p> 
+        <p><b><i>location(varchar):</i></b> location  of user.</br></p>  
+        <p><b><i>username(varchar):</i></b> username of user.</br></p> 
+
+
+                    <b>Attributes of customer_order Table</b></br>
+
+    Here are the descriptions of the attributes used in customer_order table:</br>
+
+
+<p><b><i>order_Id:</i></b> The column which represents  id of customer .</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of artist table.</br></p>
+
+<p><b><i>customer_name(varchar)</i></b>  the column which  represents names of customer</p></br>
+
+<p><b><i>product_name(varchar):</i></b> The column which  represents name of product.</br></p>
+
+<p><b><i>quantity(int):</i></b> The columns which  represents  amount of products to order.</br></p>
+<p><b><i>amounts(int):</i></b> The column which represents  price  of products.</br></p>
+<p><b><i>dateorder(varchar):</i></b> The column which represents  date of which the customer ordered the product .</br></p>
+<p><b><i>phone(varchar):</i></b> The column which represents  telephone number of customer who ordered the product .</br></p>
+                    <b>Attributes of warehouse table</b></br>
+
+                    Here are the descriptions  of the attributes used in employee table:</br>
+
+
+
+<p><b><i>emp_Id(int):</i></b> The column which  represents id of worker . It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of emproyee.</p></br>
+
+<p><b><i>emp_name(varchar):</i></b> The column which  represents  name of worker .</p></br>
+<p><b><i>phone(varchar):</i></b> The column which  represents  phone number of worker .</p></br>
+<p><b><i>salary(varchar):</i></b> The column which  represents  salary of worker .</p></br>
+<p><b><i>position(varchar):</i></b> The column which  job worker does .</p></br>
+
+
+
+                   <b>Attributes of paymentTable</b></br>
+
+                    Here are the descriptions of the attributes used in payment table:</br>
+
+<p><b><i>payment_id(primary key):</i></b> The column which are represents id  which is unique value called PRIMARY KEY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of order table.</p></br> 
+
+<p><b><i>transction_name(varchar):</i></b> The column which represents the method of payment used  by client when buying products.</p></br>
+<p><b><i>amount(int):</i></b> The column which represents the amount of money to be paid.</p></br>
+<p><b><i>date(date):</i></b> The column which represents the date of payment.</p></br>
+
+
+
+                   <b>Attributes of product Table</b></br>
+
+                    Here are the descriptions of the attributes used in product table:</br>
+
+
+<p><b><i>product_id (primary key):</i></b> The column which are represents id of product which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of portrait table.</p></br>
+
+
+<p><b><i>product_name(varchar):</i></b> The column which  represents name of the product.</p></br>
+
+<p><b><i>unit price(int):</i></b> The column which  represents the price money to be paid by client.</p></br>
+<p><b><i>total price(int):</i></b> The column which  represents the totalprice of all products that  have been ordered.</p></br>
+<p><b><i>description(varchar):</i></b> The column which  show the  products that is needed.</p></br>
+
+ <b>Attributes of stocksTable</b></br>
+
+                    Here are the descriptions of the attributes used in stock table:</br>
+
+<p><b><i>stock_id(primary key):</i></b> The column which are represents id  which is unique value called PRIMARY KEY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of order table.</p></br> 
+
+<p><b><i>product_id(varchar):</i></b> The column which represents the id used  by client when buying products.</p></br>
+<p><b><i>quantity_in(int):</i></b> The column which represents the amount of products in the stock.</p></br>
+<p><b><i>quantity_out(int):</i></b> The column which represents the amount of products out of the stock.</p></br>
+
+ <b>Attributes of supplierTable</b></br>
+
+                    Here are the descriptions of the attributes used in supplier table:</br>
+
+<p><b><i>sup_id(primary key):</i></b> The column which are represents id  which is unique value called PRIMARY KEY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of order table.</p></br> 
+
+<p><b><i>name(varchar):</i></b> The column which represents the name of supplier who supplies  products.</p></br>
+<p><b><i>telephone(int):</i></b> The column which represents the phone number of supplier.</p></br>
+<p><b><i>quantity:</i></b> The column which represents the amont of products to be supplied.</p></br>
+<p><b><i>quantity:</i></b> The column which represents the amont of products to be supplied.</p></br><p><b><i>product_id:</i></b> The column which represents the idof products to be supplied.</p></br><p><b><i>stock_id:</i></b> The column which represents the id of stock to supply in.</p></br>
+
+
+
+
+
+
+         </ul>
+		<h2><u><li>JAVA</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  Introduction 
+ In this chapter i  will be describing how my form in this system will be working from one to another.i desgned this system usig eclipse which helped me to reach the end of it well.
+
+ 
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+<b><i>account Form</i></b></br>
+<img src="10.PNG" width=900 height=400><br><br><br><br>
+
+<b><i>customer_order Form</i></b></br>
+<img src="13.PNG" width=900 height=400><br><br><br><br>
+<b><i>payment Form</i></b></br>
+<img src="12.PNG" width=900 height=400><br><br><br><br>
+
+<b
+><i>product Form</i></b></br>
+<img src="3.PNG" width=900 height=400><br><br><br><br>
+
+<b><i>stock Form</i></b></br>
+<img src="5.png" width=900 height=400><br><br><br><br>
+
+<b><i>supplier Form</i></b></br>
+<img src="7.PNG" width=900 height=400><br><br><br><br>
+
+
+        </ul>
+		
+	</ol>
+	<marquee><u><i><h2 style="color: white;">Designed  By</i></u>: Rukundo Agnes Laziah  </h2></marquee>
+	</body>
+	</html>
